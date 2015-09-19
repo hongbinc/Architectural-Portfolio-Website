@@ -1,0 +1,39 @@
+.navbar-text > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+/*Welcome animation*/
+#wel{
+    font-family: 'Satisfy', cursive;
+    font-size:10em;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    position: relative;
+}
+@keyframes changeopacity
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+/*image show*/
+#pic1{
+    left:500px;top:180px;
+    position:relative;
+    width:350px;
+    opacity:0;
+    border-radius: 25px;
+}
+.thumbnail img:hover{
+    transform:scale(1.4);
+}
+.thumbnail img{
+    transition:all 0.4s ease 0s;
+    width: 100%;
+}
