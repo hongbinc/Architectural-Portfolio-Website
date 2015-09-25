@@ -3,7 +3,7 @@ $(document).ready(function () {
    
     var div = $("#wel");
     var pi = $("#pic1");
-    pi.hide();
+    pi.hide(); //Hide the img first
     div.css("animation", "changeopacity 3s")
 
     function next() {
