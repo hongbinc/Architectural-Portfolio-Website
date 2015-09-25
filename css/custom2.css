@@ -1,4 +1,4 @@
-/*main page*/
+/*=====main page css file=====*/
 
 /*set width of the carousel*/
 .carousel-inner > .item > img,
@@ -9,11 +9,13 @@
 .carousel-inner{
     width:initial;
 }
+/*Set background color and padding of body*/
 body{
     background-color:#ffffff;
     padding-top:70px;
     padding-bottom:100px;
 }
+/*Address the font-family of h2 and h3*/
 h3{
     font-family:'Times New Roman';
 }
@@ -40,10 +42,12 @@ h2{
     padding-top:30px;
     
 }
+/*Set background color for Navigation bar*/
 .navbar-default{
     background-color:#23242f;
     border-color:#ffffff;
 }
+/*Set background color for Footer*/
 .navbar-inverse{
     background-color:black;
     opacity:.5;
@@ -54,11 +58,13 @@ h2{
 .navbar-inverse .navbar-text{
     color:white;
 }
+/*Address feature for navbar-brand*/
 .navbar-default .navbar-brand{
     font-family:'Times New Roman';
     font-size:30px;
     color:#ffffff;
 }
+/*Change color while hover and focus navbar-brand*/
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus{
     background-color:transparent;
@@ -91,6 +97,7 @@ h2{
 .thumbnail_home{
     overflow:hidden;
 }
+/*Address the position for 'return to top img'*/
 #return-to-top {
     position: fixed;
     bottom: 70px;
@@ -105,6 +112,7 @@ h2{
     -moz-border-radius: 35px;
     border-radius: 35px;
     display: none;
+    /*For different browsers*/
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;

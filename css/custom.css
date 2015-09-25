@@ -2,7 +2,7 @@
 	color: inherit;
 	text-decoration: none;
 }
-
+/*Set the body background color to Black*/
 body {
     background-color: black;
 }
@@ -14,26 +14,26 @@ body {
     text-align: center;
     margin-top: 200px;
     color: white;
-    position: relative;
 }
+/*Change opacity of 'Welcome'*/
 @keyframes changeopacity
 {
 from {opacity:0;}
 to {opacity:1;}
 }
 
-/*image show*/
+/*Set beginning page's image position,width*/
 #pic1{
     left:500px;top:180px;
     position:relative;
     width:350px;
-    opacity:0;
+   /* opacity:0;   */ 
     border-radius: 25px;
 }
+/*Address transform and transition of the image*/
 .thumbnail img:hover{
-    transform:scale(1.4);
+    transform:rotate(360deg);
 }
 .thumbnail img{
-    transition:all 0.4s ease 0s;
-    width: 100%;
+    transition:all 0.6s ease 0s;
 }
